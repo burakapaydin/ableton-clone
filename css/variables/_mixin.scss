@@ -1,0 +1,9 @@
+@mixin active {
+  color: $orange;
+}
+@mixin link {
+  color: $blue;
+}
+@mixin center {
+  margin: 0 auto;
+}

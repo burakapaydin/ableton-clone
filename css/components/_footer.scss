@@ -1,0 +1,132 @@
+@import "../variables/variable.scss";
+
+footer {
+  padding: 6vw 8vw;
+  @include center;
+  // logo
+  & img[alt="ableton-wordmark"] {
+    width: 18rem;
+    margin-bottom: 8rem;
+  }
+  // main
+  .ft-main {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 2rem;
+    gap: 5vw;
+    margin-bottom: 7rem;
+    & *:not(h2) {
+      font-weight: 400;
+    }
+    // row section
+    &__row {
+      display: flex;
+      gap: 3vw;
+      justify-content: space-between;
+      // row inside items
+      &__item {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        & i {
+          margin-right: 1rem;
+          font-size: 4rem;
+          cursor: pointer;
+        }
+        .bi-facebook {
+          color: #3c8aff;
+        }
+        .bi-twitter {
+          color: #5d9eff;
+        }
+        .bi-youtube {
+          color: #ff2323;
+        }
+        .bi-instagram {
+          color: #ff9a3c;
+        }
+        & h2 {
+          font-size: 2rem;
+          font-weight: 500;
+        }
+      }
+    }
+    // sign up section
+    .ft-main__row__item__sign {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      & h2 {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      & p {
+        margin-bottom: 2rem;
+      }
+      .ft-main__row__item__button {
+        display: flex;
+
+        & input {
+          width: 100%;
+          flex: 1;
+          background-color: #eee;
+          border: none;
+          padding: 0.5rem 1.5rem;
+        }
+        & a {
+          background-color: $blue;
+          color: white;
+          padding: 0.5rem 3rem;
+        }
+      }
+    }
+    .ft-main__row__item__language {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      & h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+      }
+      .ft-main__row__item__select {
+        display: flex;
+        gap: 0.5rem;
+        & select:nth-child(1) {
+          flex: 0;
+        }
+        & select {
+          background-color: #eee;
+          border: none;
+          font-size: 1.4rem;
+          font-weight: 500;
+          padding: 0.8rem 1rem;
+          flex-basis: 40%;
+        }
+      }
+    }
+  }
+
+  .ft-legal {
+    font-size: 1.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    & nav ul {
+      display: flex;
+      align-items: center;
+      gap: 4vw;
+    }
+    .ft-legal__right {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      & img {
+        width: 5rem;
+      }
+    }
+  }
+}

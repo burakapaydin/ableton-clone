@@ -1,0 +1,578 @@
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("FuturaPTCond-BoldObl.woff2") format("woff2"), url("FuturaPTCond-BoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond Extra';
+  src: url("FuturaPTCond-ExtraBoldObl.woff2") format("woff2"), url("FuturaPTCond-ExtraBoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-BoldObl.woff2") format("woff2"), url("FuturaPT-BoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Extra';
+  src: url("FuturaPT-ExtraBoldObl.woff2") format("woff2"), url("FuturaPT-ExtraBoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-HeavyObl.woff2") format("woff2"), url("FuturaPT-HeavyObl.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url("FuturaPT-BookObl.woff2") format("woff2"), url("FuturaPT-BookObl.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url("FuturaPT-DemiObl.woff2") format("woff2"), url("FuturaPT-DemiObl.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-LightObl.woff2") format("woff2"), url("FuturaPT-LightObl.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("FuturaPTCond-MediumObl.woff2") format("woff2"), url("FuturaPTCond-MediumObl.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond Book';
+  src: url("FuturaPTCond-BookObl.woff2") format("woff2"), url("FuturaPTCond-BookObl.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-MediumObl.woff2") format("woff2"), url("FuturaPT-MediumObl.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond Extra';
+  src: url("FuturaPTCond-ExtraBold.woff2") format("woff2"), url("FuturaPTCond-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-Bold.woff2") format("woff2"), url("FuturaPT-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-Heavy.woff2") format("woff2"), url("FuturaPT-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("FuturaPTCond-Bold.woff2") format("woff2"), url("FuturaPTCond-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Extra';
+  src: url("FuturaPT-ExtraBold.woff2") format("woff2"), url("FuturaPT-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-Medium.woff2") format("woff2"), url("FuturaPT-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond Book';
+  src: url("FuturaPTCond-Book.woff2") format("woff2"), url("FuturaPTCond-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url("FuturaPT-Book.woff2") format("woff2"), url("FuturaPT-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url("FuturaPT-Demi.woff2") format("woff2"), url("FuturaPT-Demi.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("FuturaPTCond-Medium.woff2") format("woff2"), url("FuturaPTCond-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-Light.woff2") format("woff2"), url("FuturaPT-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+  padding: 0; }
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%; }
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; }
+
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%; }
+
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word; }
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate; }
+
+html {
+  font-size: 62.5%; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+a {
+  color: black; }
+
+.main-header {
+  width: 100%;
+  height: 7rem;
+  padding: 0rem 4rem;
+  border-bottom: 2px solid #aaaaaa3e; }
+  .main-header .header-wrapper {
+    color: black;
+    font-size: clamp(1.6rem, 2rem, 2.4rem);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .main-header .header-wrapper img[alt="logo"] {
+      width: 7rem; }
+    .main-header .header-wrapper .left-nav {
+      display: flex;
+      align-items: center;
+      gap: 3rem; }
+      .main-header .header-wrapper .left-nav ul {
+        display: flex;
+        align-items: center;
+        gap: 3rem; }
+      .main-header .header-wrapper .left-nav .active {
+        display: flex;
+        align-items: center;
+        color: #ff764d; }
+        .main-header .header-wrapper .left-nav .active svg {
+          width: 2.2rem; }
+    .main-header .header-wrapper .right-nav {
+      display: flex;
+      align-items: center;
+      gap: 3.2rem; }
+      .main-header .header-wrapper .right-nav .live {
+        color: #0000ff; }
+      .main-header .header-wrapper .right-nav .login-register {
+        font-size: clamp(1.2rem, 1.6rem, 1.8rem); }
+
+.secondary {
+  width: 100%;
+  padding: 2.4rem 4rem; }
+  .secondary ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2.8rem; }
+    .secondary ul .active {
+      color: #ff764d; }
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("FuturaPTCond-BoldObl.woff2") format("woff2"), url("FuturaPTCond-BoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond Extra';
+  src: url("FuturaPTCond-ExtraBoldObl.woff2") format("woff2"), url("FuturaPTCond-ExtraBoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-BoldObl.woff2") format("woff2"), url("FuturaPT-BoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Extra';
+  src: url("FuturaPT-ExtraBoldObl.woff2") format("woff2"), url("FuturaPT-ExtraBoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-HeavyObl.woff2") format("woff2"), url("FuturaPT-HeavyObl.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url("FuturaPT-BookObl.woff2") format("woff2"), url("FuturaPT-BookObl.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url("FuturaPT-DemiObl.woff2") format("woff2"), url("FuturaPT-DemiObl.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-LightObl.woff2") format("woff2"), url("FuturaPT-LightObl.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("FuturaPTCond-MediumObl.woff2") format("woff2"), url("FuturaPTCond-MediumObl.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond Book';
+  src: url("FuturaPTCond-BookObl.woff2") format("woff2"), url("FuturaPTCond-BookObl.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-MediumObl.woff2") format("woff2"), url("FuturaPT-MediumObl.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond Extra';
+  src: url("FuturaPTCond-ExtraBold.woff2") format("woff2"), url("FuturaPTCond-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-Bold.woff2") format("woff2"), url("FuturaPT-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-Heavy.woff2") format("woff2"), url("FuturaPT-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("FuturaPTCond-Bold.woff2") format("woff2"), url("FuturaPTCond-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Extra';
+  src: url("FuturaPT-ExtraBold.woff2") format("woff2"), url("FuturaPT-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-Medium.woff2") format("woff2"), url("FuturaPT-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond Book';
+  src: url("FuturaPTCond-Book.woff2") format("woff2"), url("FuturaPTCond-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url("FuturaPT-Book.woff2") format("woff2"), url("FuturaPT-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url("FuturaPT-Demi.woff2") format("woff2"), url("FuturaPT-Demi.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("FuturaPTCond-Medium.woff2") format("woff2"), url("FuturaPTCond-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-Light.woff2") format("woff2"), url("FuturaPT-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+  padding: 0; }
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%; }
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; }
+
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%; }
+
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word; }
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate; }
+
+html {
+  font-size: 62.5%; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+a {
+  color: black; }
+
+main {
+  width: 100%; }
+  main .page-img {
+    position: relative;
+    margin: 0 auto;
+    width: 84vw;
+    height: 40vw;
+    object-fit: cover;
+    background: center/cover no-repeat url(/img/header.png); }
+  main h1.active {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(8rem, 10vw, 18rem);
+    color: #ff472e;
+    font-weight: 400;
+    position: absolute; }
+  main .page-text {
+    margin: 0 auto;
+    width: 66vw;
+    padding: 15rem 12rem; }
+    main .page-text h2 {
+      font-size: 3rem;
+      font-weight: 500;
+      margin-bottom: 2rem; }
+    main .page-text p {
+      font-size: 2rem;
+      font-weight: 400; }
+    main .page-text span {
+      color: #0000ff;
+      cursor: pointer; }
+  main .page-collage {
+    padding: 8vw 8vw;
+    position: relative;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem; }
+    main .page-collage__background {
+      position: relative;
+      overflow-x: hidden;
+      left: 21vw;
+      width: 56vw;
+      height: 55vw;
+      margin: 0 auto;
+      background-color: #fbffa7; }
+    main .page-collage__img1 {
+      position: absolute;
+      margin-left: 50vw;
+      width: 35vw;
+      height: 35rem;
+      background: center/cover no-repeat url(/img/photo-2.jpg); }
+    main .page-collage__img2 {
+      position: absolute;
+      order: -1;
+      background: center/cover no-repeat url(/img/photo-1.jpg);
+      width: 42vw;
+      height: 42vw; }

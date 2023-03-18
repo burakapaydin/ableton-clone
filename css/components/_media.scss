@@ -1,0 +1,114 @@
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1200px;
+@media screen and (max-width: $desktop) {
+  body {
+    font-size: 1.4rem;
+  }
+  .main-header > .header-wrapper > .left-nav,
+  .main-header > .header-wrapper > .right-nav:not(.menu) {
+    display: none;
+  }
+  .main-header > .header-wrapper {
+    justify-content: start;
+    gap: 2vw;
+  }
+  .menu {
+    visibility: visible;
+  }
+  main .page-text {
+    width: 68vw;
+  }
+  main .page-text h1 {
+    font-size: 2rem;
+  }
+  main .page-text p {
+    font-size: 1.6rem;
+  }
+  main .page-video {
+    width: 68vw;
+  }
+  main .page-join {
+    grid-template-columns: 1fr;
+  }
+  main .page-join__info {
+    padding: 10vw 8vw;
+    font-size: 2rem;
+    height: auto;
+  }
+  footer img[alt="ableton-wordmark"] {
+    width: 13rem;
+  }
+  footer .ft-main .ft-main__row {
+    flex-direction: column;
+    gap: 8vw;
+  }
+  footer .ft-main .ft-main__row a,
+  p {
+    font-size: 1.8rem;
+  }
+  footer .ft-main__row__item {
+    width: 100%;
+  }
+  footer .ft-main .ft-main__row__item__sign .ft-main__row__item__button input,
+  button {
+    width: 100%;
+  }
+  footer .ft-main .ft-main__row__item__sign {
+    width: auto;
+  }
+  main .page-join {
+    width: 105vw;
+  }
+  main .page-collage__background-2 {
+    height: 75vh;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  main .page-collage__background {
+    height: 55vh;
+  }
+  main .page {
+    width: 100vw;
+  }
+  main .page-text {
+    width: 80vw;
+  }
+  main .page-text h1 {
+    font-size: 1.7rem;
+  }
+  main .page-text p {
+    font-size: 1.6rem;
+  }
+  main .page-video {
+    width: 80vw;
+  }
+  main .page-video iframe {
+    height: 40vh;
+  }
+  main .page-img {
+    width: 84vw;
+  }
+  footer .ft-main .ft-main__row {
+    gap: 12vw;
+  }
+  footer .ft-main {
+    gap: 8vw;
+  }
+  main .page-collage__background-3 {
+    height: 58vh;
+  }
+  main .page-collage__img6 {
+    height: 25vh;
+  }
+  main .page-collage__img7 {
+    height: 41vh;
+  }
+  main .page-collage .page-collage-container-left .page-collage__img3 {
+    height: 20vh;
+  }
+  main .page-collage .page-collage-container-left .page-collage__img4 {
+    height: 20vh;
+  }
+}

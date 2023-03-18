@@ -1,0 +1,11 @@
+@import "../variables/variable.scss";
+body {
+  min-height: 100vh;
+  font-size: 1.6rem;
+  font-family: "Futura PT";
+  font-weight: 500;
+}
+::selection {
+  background-color: $blue;
+  color: white;
+}
